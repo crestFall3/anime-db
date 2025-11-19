@@ -1,0 +1,32 @@
+.navbar {
+  background: var(--card-bg);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar h2 {
+  color: var(--accent);
+  font-weight: bold;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar a {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color .2s;
+}
+
+.navbar a:hover {
+  color: var(--accent);
+}
