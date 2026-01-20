@@ -51,6 +51,10 @@ src/
 
 ## Getting Started
 
+### Live Demo
+
+Check out the live application: [Anime-DB](https://web-dev-projects-jiyr.vercel.app)
+
 ### Prerequisites
 
 - Node.js (v14 or higher)
@@ -64,7 +68,7 @@ src/
 cd Anime-DB
 ```
 
-1. Install dependencies:
+2. Install dependencies:
 
 ```bash
 npm install
